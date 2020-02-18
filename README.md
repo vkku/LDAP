@@ -68,3 +68,24 @@ $ getent netgroup sysadmin
 sysadmin   (garion.plainjoe.org,-,-)(silk.plainjoe.org,-,-)
 ```
 
+#### Search, Filter
+"ou=patrons, dc=inflinx, dc=com"
+![image](https://user-images.githubusercontent.com/12431831/74767408-d20ad800-52ac-11ea-8580-257ec990f14a.png)
+
+Filter =  (attributetype operator value)
+
+ex. (city=Moradabad)
+
+Complex Filter :
+
+Filter =  (operator filter1 filter2)
+
+(&(city=Moradabad)(mail=*))
+
+![image](https://user-images.githubusercontent.com/12431831/74767662-4b0a2f80-52ad-11ea-81a3-a5fc6dff8a7a.png)
+
+
+![image](https://user-images.githubusercontent.com/12431831/74767778-80168200-52ad-11ea-9290-06b15e341350.png)
+
+
+
